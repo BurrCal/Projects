@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>forms demo</h1>
+    <!--askign for user inouts and submitting them-->
+    <form action="">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter A Password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose a color</label>
+            <input id="color" type="color" placeholder="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter a number</label>
+            <input id="number" type="number" placeholder="number" name="number">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <!--using pre existing search bars to search for data -->
+    <form action="https://youtube.com/results">
+        <label for="Search">Search on Youtube</label>
+        <input type="text" name="search_query" id="Search" placeholder="Search">
+        <button type="submit">Search On Youtube</button>
+    </form>
+    <hr>
+    <h2>Key inputs</h2>
+    <!--using radio inputs-->
+    <form action="">
+        <input id="tosY" type="radio" placeholder="tosY" name="tos" value="Agree">
+        <label for="tosY">Agree</label>
+        <input id="tosN" type="radio" placeholder="tosN" name="tos" checked value="Disagree">
+        <label for="tosN">Disagree</label>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="">
+        <!--dropdown menu-->
+        <label for="Pets">Choose a pet</label>
+        <select name="Pet-select" id="Pets">
+            <option value="" selected>--Please select an option--</option>
+            <option value="Dog">Dogs</option>
+            <option value="Cats">Cats</option>
+            <option value="Birds">Birds</option>
+            <option value="Snakes">Snakes</option>
+        </select>
+        <p><button type="submit">Submit</button></p>
+        <!--slider-->
+        <p>
+            <label for="Vol">Volume</label>
+            <input type="range" id="Vol" name="Volume" placeholder="Volume" min="0" max="100" step="5" value="50">
+            <br><button type="submit">Submit</button>
+        </p>
+        <p>
+            <label for="tx">This is The interactive text box</label>
+            <br>
+            <textarea name="txt" id="txt" cols="25" rows="7" placeholder="Enter your text here"></textarea>
+        </p>
+        <hr>
+        <h2>Validations Demo</h2>
+        <!--Requiring prerequisites before beign able to submit-->
+        <form action="">
+            <label for="first">Enter your first name</label>
+            <input type="text" name="firstname" id="first" placeholder="First Name" required>
+            <label for="user_name">Enter your username</label>
+            <input type="text" name="user_name" id="user_name" placeholder="Username" minlength="5" maxlength="15" required>
+
+            <button>Submit</button>
+
+        </form>
+
+
+
+</body>
+
+
+
+
+</html>

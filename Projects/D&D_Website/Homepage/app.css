@@ -1,0 +1,44 @@
+body {
+    background-color: #e0e1dd;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#bdragon {
+    display: flex;
+    position: relative;
+    width: 50vw;
+    margin-left: 1.22%;
+    height: 500px;
+    margin-top: 3em;
+    margin-right: 1px
+}
+
+#carosel-img {
+    position: absolute;
+    width: 50vw;
+    height: 500px;
+    margin-top: 3em;
+    padding-right: 1em;
+    overflow: hidden;
+
+}
+
+#carosel-caption {
+    background-color: #dad7cd;
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    position: relative;
+    width: 50vw;
+    height: 500px;
+    margin-top: 3em;
+    transform: translateY(85%);
+    padding-left: em;
+    overflow: hidden;
+}

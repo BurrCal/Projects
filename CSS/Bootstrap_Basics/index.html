@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1 text-primary">Boostrap Playground</h1>
+        <h2 class="display-6">Buttons<span class="badge bg-secondary bg-sm">New</span></h2>
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button class="btn btn-outline-warning">Warning Outline</button>
+        <button class="btn btn-outline-danger">Warning Danger</button>
+        <button class="btn btn-outline-info btn-lg">Info Outline</button>
+        <button class="btn btn-secondary btn-sm">Small Button</button>
+        <h3 class="display-5">Button Groups</h3>
+        <div class="btn-group" role="group">
+            <button class="btn btn-warning">One</button>
+            <button class="btn btn-warning">Two</button>
+            <button class="btn btn-warning">Three</button>
+        </div>
+        <h3 class="display-5">Alerts</h3>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">Oh no</h4>
+            Danger!
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <h2 class="display-6">Typography</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur maxime autem minus omnis
+            tenetur hic,
+            ratione
+            porro velit exercitationem nesciunt veniam dolor odio at blanditiis illo provident soluta? Culpa, veniam!
+        </p>
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                voluptatem, fugiat nemo autem explicabo labore laboriosam odit tenetur enim molestias commodi, tempore
+                nihil
+                laborum soluta, cumque voluptates tempora ab repudiandae!</p>
+            <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
+        </blockquote>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

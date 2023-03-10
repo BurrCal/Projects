@@ -1,0 +1,32 @@
+body{
+    background-color: #edf2f4;
+}
+
+
+img {
+    position: relative;
+    width: 30%;
+    margin: 1.22%;
+    height: 550px;
+    border: 4px solid #cad2c5;
+    transition: 0.25s ease-in-out;
+}
+nav{
+    text-transform: uppercase;
+    width: 30%;
+    margin-left: 1.44%;
+    padding: 15px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background-color: #f5ebe0;
+    border-radius: 5px;
+    border-color: black;
+}
+
+img:hover{
+    border-color: black;
+    color: white;
+    box-shadow: 0 0.7em 0.7em -0.6em black;
+    cursor: pointer;
+    transform: scale(1.05);
+}

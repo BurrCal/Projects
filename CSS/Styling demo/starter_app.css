@@ -1,0 +1,63 @@
+body {
+    background-color: #f1faee;
+}
+
+button{
+    font-size:15px;
+    background-color: #a8dadc;
+    border-color: black;
+    border-width: 2px;
+}
+
+h1,h2{
+    color: #1d3557;
+}
+span{
+    color:#457b9d;
+}
+.tag{
+    background-color: #e63946;
+    color:#f1faee;
+    font-size: 15px;
+    font-family: Arial;
+}
+.post a {
+    color:#457b9d;
+    font-weight: 600;
+    text-decoration: none;
+}
+footer a {
+    color:#e63946;
+}
+
+#password {
+    color:#457b9d;
+    border-color: #e63946;
+    border-width: 3px;
+}
+a[href*="google"]{
+    color:magenta;
+}
+
+button:hover {
+    background-color:#e63946;
+    color:#f1faee;
+}
+button:past{
+    color:#1d3557;
+}
+.post a:hover {
+    text-decoration: underline;
+}
+.post button:active {
+    background-color:#02c39a;
+}
+.post {
+    background-color:#dfe8dc;
+}
+h2::first-letter{
+    font-size: 28px;
+}
+::selection {
+    background-color:#00B2EE;
+}

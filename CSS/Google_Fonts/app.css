@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 100;
+    text-decoration: underline;
+}

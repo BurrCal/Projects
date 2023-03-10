@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaos Gods</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/6539c9759d.js" crossorigin="anonymous"></script>
+    </header>
+    <nav data-toggled="false" data-transitionable="false">
+        <div id="nav-logo-section" class="nav-section">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </div>
+        <div id="nav-mobile-section">
+            <div id="nav-link-section" class="nav-section">
+                <a href="#">ABOUT</a>
+                <a href="#">WORK</a>
+            </div>
+            <div id="nav-social-section" class="nav-section">
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </div>
+            <div id="nav-contact-section" class="nav-section">
+                <a href="#">GET IN TOUCH</a>
+            </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+            <span>Menu</span>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Khorne -->
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>Khorne, also called the Blood God and the Lord of Skulls, is the Chaos God of Blood, War and Murder.
+                    His domain covers the most basic and brutal of sentient emotions and actions,
+                    such as hate, anger, rage, war and killing.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <a href="C:\Users\princ\OneDrive\Desktop\practice web devolpment\Projects\4_chaos_gods\Khorne\Khorne.html"><h2>'Blood God' Khorne</h2></a>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <!-- tzeench -->
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>Tzeentch, also known as the Changer of Ways, is the Chaos God of Change, Evolution,
+                    Intrigue and Sorcery, he who weaves the threads that connect every action,
+                    plot and subtle intrigue in a galaxy-wide game of manipulation and subterfuge</p>
+            </div>
+            <div class="article-title-section article-section">
+                <a href="#"><h2>'Changer of ways' Tzeentch</h2></a>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <!-- Nurgle -->
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>Nurgle, also known as the Plague Lord, is the Chaos God of Disease, Decay, 
+                    Death and Destruction. In particular, the emotion of despair in mortals empowers him. 
+                    He is known also as "Grandfather Nurgle," the "Lord of Pestilence" and the "Lord of Decay."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <a href=""><h2>'Plague lord' Nurgle</h2></a>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <!-- slaneesh -->
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>Slaanesh, also known as the Dark Prince, the Prince of Pleasure, the Lord of Excess, 
+                    the Perfect Prince, and even the Prince of Chaos in the Imperium of Man, is 
+                    the Chaos God of pleasure, excess and decadence. Lust, pride and self-indulgence are the hallmarks of all who follow him.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <a href=""><h2>'God of pleasure' Slaanesh</h2></a>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+
+</body>
+
+</html>
